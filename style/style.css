@@ -55,11 +55,214 @@ font-weight: 600;
 line-height: 22px;
 color: rgb(255, 255, 255);
 border: none;
-
-
+}
+.banner-box-title input:hover{
+  background-color: blue;
 }
 
  /* The Vision of Future styles */
+
+ .vision-title h1{
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+
+ }
+
+ .vision-title p{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+ }
+
+/* vision image-box syles */
+
+.image-1{
+width: 410px;
+height: 325px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 32px;;
+
+box-sizing: border-box;
+border-radius: 16px;
+background: rgba(84, 144, 245, 0.2);
+}
+.image-1 h2{
+  color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+margin:15px 0px 15px 0px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.image-1 p{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+
+letter-spacing: 0%;
+text-align: left;
+}
+
+.image-1  input{
+width: 122px;
+height: 41px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 11px 20px 11px 20px;
+margin: 24px 0px;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+border-radius: 8px;
+background: rgb(84, 144, 245);
+border: none;
+}
+.image-1 input:hover{
+  background-color: aqua;
+}
+
+.image-2{
+width: 410px;
+height: 325px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 32px;;
+
+box-sizing: border-box;
+border-radius: 16px;
+
+background: rgb(198, 228, 214);;
+}
+.image-2 h2{
+  color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+margin:15px 0px 15px 0px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.image-2 p{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+
+letter-spacing: 0%;
+text-align: left;
+}
+
+.image-2 input{
+width: 122px;
+height: 41px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 11px 20px 11px 20px;
+margin: 24px 0px;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+border-radius: 8px;
+background: rgb(9, 161, 92);
+border: none;
+}
+.image-2 input:hover{
+  background-color: rgb(206, 177, 47);
+
+  
+}
+
+.image-3{
+width: 410px;
+height: 325px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 32px;;
+box-sizing: border-box;
+border-radius: 16px;
+background: rgb(247, 235, 207);
+}
+.image-3 h2{
+  color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+margin:15px 0px 15px 0px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.image-3 p{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+
+letter-spacing: 0%;
+text-align: left;
+}
+
+.image-3  input{
+width: 122px;
+height: 41px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 11px 20px 11px 20px;
+margin: 24px 0px;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+border-radius: 8px;
+background: rgb(255, 194, 57);
+border: none;
+}
+.image-3 input:hover{
+  background-color: aqua;
+}
+.vision-image-box{
+  display: flex;
+  gap: 24px;
+  margin-top: 15px;
+}
+ 
 
 
 
