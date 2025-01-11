@@ -13,6 +13,44 @@ body{
   margin: 0 auto;
   margin-top: 80px;
 }
+
+/* navbar section styles */
+.navbar{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar p{
+  color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.navbar button{
+width: 116px;
+height: 52px;
+align-items: center;
+gap: 48;
+padding: 15px 30px 15px 30px;
+margin: 0px 10px;
+border: none;
+border-radius: 8px;
+color: rgb(0, 106, 80);
+font-family: Fira Sans;
+font-size: 20px;
+color: rgb(0, 106, 80);
+
+
+}
+.navbar button:hover{
+  background-color: blueviolet;
+}
  /* added banner section styles */
 
 .banner-box{
@@ -281,6 +319,7 @@ padding: 48px;
 gap: 50px;
 
 
+
 }
 
 .image-title-box-image img{
@@ -318,6 +357,7 @@ line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
 text-align: justify;
+
 }
 
 .image-title-box-title input{
@@ -513,7 +553,7 @@ background-position-x: 22px;
 background-position-y: 22px;
 border: none;
 box-sizing: border-box;
-border: 1px solid rgba(14, 14, 14, 0.15);
+background-color: rgb(255, 255, 255);
 border-radius: 16px;
 background: rgb(255, 255, 255),url(../assets/quote-bg.png);
 
