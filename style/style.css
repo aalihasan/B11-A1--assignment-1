@@ -3,6 +3,11 @@
   margin: 0%;
   padding: 0%;
 }
+body{
+  width:1380px;
+  margin: 0 auto;
+  background-color: azure;
+}
 .margin{
   width:1280px;
   margin: 0 auto;
@@ -261,6 +266,78 @@ border: none;
   display: flex;
   gap: 24px;
   margin-top: 15px;
+}
+
+/* Added the Recent news Styles */
+
+.image-title-box{
+display: flex;
+border-radius: 24px;
+
+background: rgb(255, 255, 255);
+height: 402px;
+align-items: center;
+padding: 48px;
+gap: 50px;
+
+
+}
+
+.image-title-box-image img{
+width: 408px;
+height: 306px;
+
+border-radius: 24px;
+}
+
+.image-title-box-title{
+  width: 600px;
+  height: 296px;
+}
+.image-title-box-title h1{
+  color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+text-align: left;
+}
+.image-title-box-title img{
+width: 134px;
+height: 40px;
+margin: 12px 0px;
+
+}
+.image-title-box-title p{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+width: 700px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+text-align: justify;
+}
+
+.image-title-box-title input{
+width: 139px;
+height: 48px;
+padding: 13px 26px 13px 26px;
+margin: 32px 0px;
+border: none;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255)
+}
+
+.image-title-box-title input:hover{
+  background-color: brown;
+}
+
+.news-section-1 .image-title-box{
+  justify-content: space-between;
+
 }
  
 
