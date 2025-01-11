@@ -358,7 +358,7 @@ text-align: center;
 
 }
 
-.Donate-title p{
+.Donate-title{
   margin-bottom: 32px;
   color: rgba(14, 14, 14, 0.7);
 font-family: Fira Sans;
@@ -494,7 +494,88 @@ font-weight: 600;
 
 .other-button form input:hover{
   background-color: rgb(158, 158, 156);
+
 }
+
+/* CHALLENGES Section styles */
+
+.challanges{
+  margin: 0 auto;
+  border-radius: 24px;
+background: rgb(198, 228, 214);
+height: 395px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+
+
+}
+.challanges .Donate-title{
+  padding: 80px 100px 0px;
+
+}
+.Donate-title p{
+  width: 622px;
+height: 48px;
+margin-top: 16px;
+}
+
+.suscribe-form{
+  display: flex;
+  gap: 0;
+
+}
+.suscribe-form input{
+  border: none;
+  padding: 10px 0;
+width: 600px;
+height: 55px;
+padding: 18px 40px 18px 40px;
+margin: 0px 0px;
+border-radius: 8px 0px 0px 8px;
+background: rgb(255, 255, 255);
+}
+.suscribe-form button{
+  border: none;
+  padding: 8px 0;
+width: 150px;
+border-radius: 0px 8px 8px 0px;
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+}
+.suscribe-form button:hover{
+  background-color: cadetblue;
+}
+.para{
+margin-top: 24px;
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 25px;
+
+}
+
+.span-title{
+  margin: 24px;
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+
  
 
 
