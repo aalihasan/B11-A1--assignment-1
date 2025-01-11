@@ -334,6 +334,9 @@ color: rgb(255, 255, 255)
 .image-title-box-title input:hover{
   background-color: brown;
 }
+.news-section-1{
+  margin-top: 24px;
+}
 
 .news-section-1 .image-title-box{
   justify-content: space-between;
@@ -498,6 +501,42 @@ font-weight: 600;
 }
 
 /* CHALLENGES Section styles */
+
+.dr-yunus{
+ margin-top: 24px;
+padding: 48px 24px 48px 24px;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background-image: url(../assets/quote-bg.png);
+background-repeat: no-repeat;
+background-position-x: 22px;
+background-position-y: 22px;
+border: none;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255),url(../assets/quote-bg.png);
+
+}
+.dr-yunus p{
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+margin-bottom: 10px;
+}
+.dr-yunus h1{
+  color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 10px;
+}
 
 .challanges{
   margin: 0 auto;
