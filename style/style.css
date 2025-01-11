@@ -11,7 +11,7 @@ body{
 .margin{
   width:1280px;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 80px;
 }
  /* added banner section styles */
 
@@ -338,6 +338,162 @@ color: rgb(255, 255, 255)
 .news-section-1 .image-title-box{
   justify-content: space-between;
 
+}
+/* Donate-title section styles */
+
+.Donate-container .Donate-title{
+
+padding: 0px 104px 0px 104px;
+}
+.Donate-title h1{
+  text-align: center;
+  margin-top: 24px;
+  color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.Donate-title p{
+  margin-bottom: 32px;
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.taka-box{
+  padding: 32px 104px 32px 104px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.taka-1 form input{
+width: 240px;
+height: 128px;
+padding: 40px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+border: none;
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+}
+.taka-1 form input:hover{
+  background-color: antiquewhite;
+}
+.taka-2 form input{
+width: 240px;
+height: 128px;
+padding: 40px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(134, 240, 212);
+border: none;
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+}
+.taka-2 form input:hover{
+  background-color: rgb(238, 186, 118);
+}
+.taka-3 form input{
+width: 240px;
+height: 128px;
+padding: 40px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(237, 232, 232);
+border: none;
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+}
+.taka-3 form input:hover{
+  background-color: rgb(76, 68, 56);
+
+}
+.taka-4 form input{
+width: 240px;
+height: 128px;
+padding: 40px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(240, 170, 170);
+border: none;
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+}
+.taka-4 form input:hover{
+  background-color: rgb(124, 79, 239);
+
+}
+
+.other-amout form input{
+  display: block;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+width: 1032px;
+height: 64px;
+padding: 20px 40px 20px 40px;
+border: none;
+border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 400;
+margin-bottom: 32px;
+}
+
+.other-amout form input:hover{
+  background-color: rgb(248, 193, 193);
+
+}
+
+.other-button form input{
+display: block;
+margin: 0 auto;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 151px;
+height: 56px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 8px;
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+
+}
+
+.other-button form input:hover{
+  background-color: rgb(158, 158, 156);
 }
  
 
