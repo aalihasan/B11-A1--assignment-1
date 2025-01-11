@@ -575,6 +575,23 @@ letter-spacing: 0%;
 text-align: center;
 }
 
+/* bangladesh-2.0 */
+.bangladesh-2-0{
+text-align: center;
+text-transform: capitalize;
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+margin-bottom: 24px;
+
+
+  
+}
+.bangladesh-2-0 img{
+  padding: 10px;
+ 
+}
 
  
 
